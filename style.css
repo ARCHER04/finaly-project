@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.container-header {
+  max-width: 1920px;
+  height: 1024px;
+  background-image: url(img/back-img__header.png);
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrp {
+   width: 100%;
+   height: 100%;
+   background: rgb(0,0,0,0.5);
+   position: absolute;
+   z-index: 1;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.nav-bar {
+  display: block;
+}
+
+.list-header {
+  display: flex;
+  margin-top: 62px;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 630px;
+}
+
+.list-header-item {
+  margin-right: 20px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+  
+.icon-header{
+  margin-top: 60px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.icon-header:hover {
+  color: #998675;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 181px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 320px;
+  margin-right: 150px;
+}
+
+.logo-svg {
+  fill: currentColor;
+}
+
+.logo-txt {
+  font-family: Raleway;
+  font-size: 34px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.logo:hover {
+  color: #998675;
+}
+
+.list-header-item:hover{
+  color: #998675;
+}
+
+.carusel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 1024px;
+  max-width: 1920px;
+  z-index: 3;
+}
+
+.carusel-btn {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 30px;
+  border: none;
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  transform: rotate(45deg);
+}
+ 
+.btn {
+  padding: 10px 30px;
+  margin-top: 50px;
+  margin-left: 320px;
+  font-family: Raleway;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #998675;
+  color:white;
+}
+
+.carusel-btn:hover {
+  border: 2px solid #d3c1ad;
+}
+
+.carusel-btn:nth-of-type(1) {
+  margin: 0 0 0 50px;
+  transform: rotate(225deg);
+}
+
+.carusel-btn:nth-of-type(2) {
+  margin: 0 50px 0 0;
+}
+
+
+.carusel-txt {
+  width: 50%;
+  min-height: 200px;
+}
+
+.carusel-pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px 0;
+  
+}
+
+.carusel-pagination-item {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #ffffff
+}
+
+.portfolio {
+  font-family: Raleway;
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+}
+
+.unique {
+  font-family: Raleway;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+.nam-liber {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+}
