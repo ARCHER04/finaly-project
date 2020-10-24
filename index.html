@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="container-header">
-        <div class="wrp">
-            <header class="header">
+<body class="container">
+    <header class="header">
+
+        <div class="header_head">
+            <div class="header_head_logo">
                 <a href="index.html" class="logo">
                     <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         width="64px" height="56px" viewBox="0 0 64 56">
@@ -20,47 +21,70 @@
                     </svg>
                     <span class="logo-txt">Waxom</span>
                 </a>
-                <nav class="nav-bar">
-                    <ul class="list-header">
-                        <li class="list-header-item"><a>Home </a></li>
-                        <li class="list-header-item"><a>About Us </a></li>
-                        <li class="list-header-item"><a>Portfolio </a></li>
-                        <li class="list-header-item"><a>Features </a></li>
-                        <li class="list-header-item"> <a>Blog </a></li>
-                        <li class="list-header-item"> <a>Pricing </a></li>
-                        <li class="list-header-item"><a>Shortcodes</a></li>
-                        <li class="list-header-item"> <a>Contact </a></li>
-                    </ul>
-
-                </nav>
-                <a href="#"><img src="img/icon_heder.png" alt="иконка магазина" class="icon-header"></a>
-                <a href="#"><img src="img/icon_poisk_header.png" alt="иконка поиска" class="icon-search"></a>
-            </header>
-            <section class="carusel">
-                <a href="#" class="carusel-btn"></a>
-                <div class="carusel-txt">
-                    <h1 class="unique">Unique and Modern Design</h1>
-                    <h2 class="portfolio">Portfolio PSD Template</h2>
-                    <h3 class="nam-liber">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-                        doming id quod
-                        mazim placerat facer possim assum.</h3>
-                    <button class="btn">Get Started</button>
-                </div>
-
-                <a href="#" class="carusel-btn"></a>
-                <div class="carusel-pagination">
-                    <a href="#" class="carusel-pagination-item"></a>
-                    <a href="#" class="carusel-pagination-item"></a>
-                    <a href="#" class="carusel-pagination-item"></a>
-                    <a href="#" class="carusel-pagination-item"></a>
-                    <a href="#" class="carusel-pagination-item"></a>
-                </div>
-            </section>
+            </div>
+            <nav class="header_head_nav">
+                <ul class="header_head_nav_list">
+                    <li class="header_head_nav_list_item">
+                        <a href="#" class="header_head_nav_list_item_link">Home</a>
+                    </li>
+                    <li class="header_head_nav_list_item">
+                        <a href="#" class="header_head_nav_list_item_link">About Us</a>
+                    </li>
+                    <li class="header_head_nav_list_item">
+                        <a href="#" class="header_head_nav_list_item_link">Portfolio</a>
+                    </li>
+                    <li class="header_head_nav_list_item">
+                        <a href="#" class="header_head_nav_list_item_link">Features</a>
+                    </li>
+                    <li class="header_head_nav_list_item">
+                        <a href="#" class="header_head_nav_list_item_link">Blog</a>
+                    </li>
+                    <li class="header_head_nav_list_item">
+                        <a href="#" class="header_head_nav_list_item_link">Pricing</a>
+                    </li>
+                    <li class="header_head_nav_list_item">
+                        <a href="#" class="header_head_nav_list_item_link">Shortcodes</a>
+                    </li>
+                    <li class="header_head_nav_list_item">
+                        <a href="#" class="header_head_nav_list_item_link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_head_cs">
+                <a href="#" class="header_head_cs_cart"></a>
+                <input type="search" class="header_head_cs_searche">
+            </div>
+            <div class="burger burger_active">
+                <span class="burger_item"></span>
+            </div>
         </div>
-    </div>
+
+        <h1 class="visually-hidden">Unique and Modern Design</h1>
+
+        <div class="header_slider">
+            <button class="header_slider_arrow"></button>
+            <div class="header_slider_slogan">
+                <h2 class="header_slider_slogan_title">Unique and Modern Design</h2>
+                <h3 class="header_slider_slogan_header">Portfolio PSD Template</h3>
+                <p class="header_slider_slogan_text">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                    imperdiet doming id quod mazim placerat facer possim assum.</p>
+                <button class="header_slider_slogan_button">Get Started</button>
+            </div>
+            <button class="header_slider_arrow arrow-right"></button>
+        </div>
+
+        <div class="carusel-pagination">
+            <a href="#" class="carusel-pagination-item"></a>
+            <a href="#" class="carusel-pagination-item"></a>
+            <a href="#" class="carusel-pagination-item"></a>
+            <a href="#" class="carusel-pagination-item"></a>
+            <a href="#" class="carusel-pagination-item"></a>
+        </div>
+
+    </header>
     <main class="main">
         <section class="section-profession">
-            <h2 class="visually-hidden"></h2>
+            <h2 class="visually-hidden">hhh</h2>
             <div class="features">
                 <svg class="features-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                     width="49" height="49">
@@ -110,8 +134,8 @@
             <p class="realization-text">
                 Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
             </p>
-            <p class="realization-text"></p>
-            Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+            <p class="realization-text">
+                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
             </p>
             <div class="multi_photo"></div>
         </section>
@@ -127,7 +151,7 @@
                 <span class="ad-button-txt">purchase now</span>
             </button>
         </aside>
-        <section class="our-project">
+        <section class="our-project content_container">
             <h2 class="title-our__project">Our Latest Projects.</h2>
             <p class="txt-our__project">
                 Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
@@ -158,7 +182,7 @@
                         <h3 class="projects_list_item_title">Claritas Etiam Processus</h3>
                         <p class="projects_list_item_text">Photography, Nature</p>
                     </div>
-                    <button class="projects_list_item_button-link"> </button>
+                    <button class="projects_list_item_button-link"></button>
                     <button class="projects_list_item_button-view"></button>
                 </li>
                 <li class="project-cart-item">
@@ -235,7 +259,7 @@
             </div>
         </section>
         <section class="mobile-devices">
-            <div class="mobile-devices-container container-section-mobile">
+            <div class="mobile-devices-container content_container">
                 <div class="mobile-wrapper">
                     <h2 class="title-mobile-wrapper">Excellent for Mobile Devices.</h2>
                     <p class="txt-mobile-wrapper">
@@ -284,7 +308,7 @@
                 </ul>
             </aside>
         </section>
-        <section class="post container-post">
+        <section class="post content_container">
             <h2 class="posts_title">Recent Point</h2>
             <p class="post-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
                 Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
@@ -325,14 +349,14 @@
                 </li>
             </ul>
             <div class="post-slider">
-                <a class="post-slider-btn"><img src="img/icon_btn_post.svg" alt="кнопка" width="22px" height="22px"></a>
-                <a class="post-slider-btn"><img src="img/icon_btn_post_right.svg" alt="кнопка" width="22px"
-                        height="22px"></a>
+                <a class="post-slider-btn"><img src="img/icon_btn_post.svg" alt="кнопка" width="22" height="22"></a>
+                <a class="post-slider-btn"><img src="img/icon_btn_post_right.svg" alt="кнопка" width="22"
+                        height="22"></a>
             </div>
         </section>
         <section class="emblem">
             <h2 class="emblem-title" hidden="">Our partners</h2>
-            <ul class="emblem-list container-emblem">
+            <ul class="emblem-list content_container">
                 <li class="emblem-list-item">
                     <a href="#" class="partners-list-item-link">
                         <img src="img/emblem_1.png" alt="partner label" class="partners-list-item-link-img" width="210">
@@ -356,6 +380,123 @@
             </ul>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer-top content_container">
+            <div class="footer-about">
+                <img class="footer-about-img" src="img/logo_footer.svg" alt="logo">
+                <span class="footer-about-title">Waxom</span>
+                <p class="txt-footer-about">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore aliquid ipsa aspernatur expedita
+                    suscipit harum saepe modi, ad ab soluta autem. Vel ab earum aliquid fuga ratione. Sed, dolorum
+                    perferendis.
+                </p>
+                <a href="#" class="footer_about_link">Read More</a>
+            </div>
+            <div class="footer-post">
+                <h2 class="title-footer-post">Recent Posts</h2>
+                <ul class="footer-post-list">
+                    <li class="footer-post-list-item">
+                        <span class="footer-post-list-item-date">September 08, 2015</span>
+                        <p class="footer-post-list-item-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor, eius quam. Voluptates
+                            accusantium obcaecati facilis!.</p>
+                    </li>
+                    <li class="footer-post-list-item">
+                        <span class="footer-post-list-item-date">September 08, 2015</span>
+                        <p class="footer-post-list-item-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor, eius quam. Voluptates
+                            accusantium obcaecati facilis!.</p>
+                    </li>
+                    <li class="footer-post-list-item">
+                        <span class="footer-post-list-item-date">September 08, 2015</span>
+                        <p class="footer-post-list-item-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor, eius quam. Voluptates
+                            accusantium obcaecati facilis!.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-twitter">
+                <h2 class="footer-twitter-title">Our Twitter</h2>
+                <ul class="footer-twitter-list">
+                    <li class="footer-twitter-list-item">
+                        <p class="footer_twitter_list_item_text"><span
+                                class="footer_twitter_list_item_text_hash">@waxom</span> Cum soluta nobis eleifend
+                            option congue nihil
+                            imperdiet doming</p>
+                        <p class="footer_twitter_list_item_time">3 mins ago</p>
+                    </li>
+                    <li class="footer-twitter-list-item">
+                        <p class="footer_twitter_list_item_text">Cum soluta<span
+                                class="footer_twitter_list_item_text_hash">#envato</span> nobis eleifend
+                            option congue nihil
+                            imperdiet doming</p>
+                        <p class="footer_twitter_list_item_time">3 mins ago</p>
+                    </li>
+                    <li class="footer-twitter-list-item">
+                        <p class="footer_twitter_list_item_text"> Cum soluta nobis eleifend
+                            option congue nihil
+                            imperdiet<span class="footer_twitter_list_item_text_link">bit.ly/1Hniso7</span></p>
+                        <p class="footer_twitter_list_item_time">3 mins ago</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_widgets">
+                <h2 class="footer_widgets_title">Dribbble Widget</h2>
+                <ul class="footer_widgets_list">
+                    <li class="footer_widgets_list_item">
+                        <a href="#" class="footer_widgets_list_item_link">
+                            <img src="img/footer_photo_1.jpg" alt="widget mobile"
+                                class="footer_widgets_list_item_link_img" width="130" height="100">
+                        </a>
+                    </li>
+                    <li class="footer_widgets_list_item">
+                        <a href="#" class="footer_widgets_list_item_link">
+                            <img src="img/footer_photo_2.jpg" alt="widget X3" class="footer_widgets_list_item_link_img"
+                                width="130" height="100">
+                        </a>
+                    </li>
+                    <li class="footer_widgets_list_item">
+                        <a href="#" class="footer_widgets_list_item_link">
+                            <img src="img/footer_photo_3.jpg" alt="widget book"
+                                class="footer_widgets_list_item_link_img" width="130" height="100">
+                        </a>
+                    </li>
+                    <li class="footer_widgets_list_item">
+                        <a href="#" class="footer_widgets_list_item_link">
+                            <img src="img/footer_photo_4.jpg" alt="widget icons"
+                                class="footer_widgets_list_item_link_img" width="130" height="100">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer_copyright_wrapper container-post">
+                <ul class="footer_copyright_list">
+                    <li class="footer_copyright_list_item">Copyright © 2015
+                        <span class="footer_copyright_list_item-name"> Waxom</span>
+                    </li>
+                    <li class="footer_copyright_list_item">
+                        <a href="#" class="footer_copyright_list_item_link">Privacy Policy</a>
+                    </li>
+                    <li class="footer_copyright_list_item">
+                        <a href="#" class="footer_copyright_list_item_link">FAQ</a>
+                    </li>
+                    <li class="footer_copyright_list_item">
+                        <a href="#" class="footer_copyright_list_item_link">Support</a>
+                    </li>
+                </ul>
+                <ul class="footer_copyright_right_list">
+                    <li class="footer_copyright_right_list_item">
+                        Designed by <span class="footer_copyright_right_list_item-name">ThemeFire</span></li>
+                    <li class="footer_copyright_right_list_item">
+                        Only on <span class="footer_copyright_right_list_item-name">Envato
+                            Market</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
