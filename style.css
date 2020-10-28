@@ -303,11 +303,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-weight: 800;
   text-transform: uppercase;
   color: #fff;
+
 }
 
 .header_slider_slogan_button:hover, .header_slider_slogan_button:focus {
   transition: 0.7s;
   outline: 1px solid #fff;
+
 }
 
 .header_slider_slogan_button:active {
@@ -779,7 +781,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     position: relative;
     background-color: #fbfaf8;
     margin-bottom: 30px;
+    transition: transform 1s ease-out;
+  }
+  
+.project-cart-item:hover {
+  transform: scale(0.9);
+  z-index: 2;
 }
+    
 
 .projects_list_item_img {
   width: 100%;
@@ -988,11 +997,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .video-play-btn-icon {
   margin: auto;
   fill: #fff;
+  transition: transform 1s ease-out;
 }
 
 .video-play-btn:hover .video-play-btn-icon {
   fill: coral;
   border: 0;
+  transform: rotate(360deg);
+  width: 100px;
+  min-height: 150px;
 }
 
 .video-play-btn:active .video-play-btn-icon {
@@ -1082,6 +1095,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: middle;
   text-align: center;
   border-radius: 50%;
+  transition: transform 1s ease-out;
+}
+
+.mobile-device-list-item:hover::before {
+ transform: rotate(360deg);
 }
 
 .counters {
@@ -1097,6 +1115,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   max-width: 1230px;
   padding: 0 30px;
   margin: 0 auto;
+  animation: 10s linear 2s infinite normal swing;
+  transition: all ease-in-out 1s;
 }
 
 .counters-list-item {
@@ -1327,14 +1347,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .emblem-list-item {
   list-style-type: none;
+  transition: transform 1s ease-out;
+}
+
+.emblem-list-item:hover {
+  transform: scale(1.5);
 }
 
 .partners-list-item-link-img {
   width: 100%;
+  
 }
 
 .partners-list-item-link:hover .partners-list-item-link-img{
   outline: solid #c7b299;
+
 }
 .partners-list-item-link:focus .partners-list-item-link-img{
   outline: solid #c7b299;
